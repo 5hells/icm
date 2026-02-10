@@ -1,0 +1,10 @@
+[submodule "dwl"]
+	path = dwl
+	url = https://codeberg.org/dwl/dwl
+
+[submodule "wlroots"]
+	path = wlroots
+	url = https://github.com/icpstr/icmroots.git
+[submodule "wayland-protocols"]
+	path = wayland-protocols
+	url = https://gitlab.freedesktop.org/wayland/wayland-protocols

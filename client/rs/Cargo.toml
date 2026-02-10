@@ -1,0 +1,12 @@
+[package]
+name = "rs"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "icm_client"
+path = "src/lib.rs"
+
+[dependencies]
+byteorder = "1.5"
+chrono = "0.4"

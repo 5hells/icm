@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/wlroots-0.20",
+                "/usr/include/wayland-protocols/",
+                "protocols/",
+                "/usr/include/GL",
+                "/usr/include/EGL",
+                "/usr/include/pixman-1",
+                "/usr/include/xcb",
+                "/usr/include/X11",
+                "/usr/include/X11/extensions"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerArgs": [
+                "-lwlroots-0.20 -lwayland-server -lm -lEGL -lGL -ldl -I/usr/include/wlroots-0.20 -I/usr/include/wayland-server -I/usr/include/wayland-server-core -I/usr/include/wayland-util -Iprotocols/ -I/usr/include/GL -I/usr/include/EGL -lpixman -lX11 -lX11-xcb -lxcb -lxcb-render -lxcb-shape -lxcb-xfixes -lXrandr -lXcursor -lXinerama -lXcomposite -lXdamage -lXext -lXfixes -lXrender -lXres -lXv -lXvmc -lXxf86vm -lXrandr -DWLR_USE_UNSTABLE -I/usr/include/pixman-1 -I/usr/include/xcb -I/usr/include/xcb/render -I/usr/include/xcb/shape -I/usr/include/xcb/xfixes -I/usr/include/X11 -I/usr/include/X11/extensions -I/usr/include/X11/extensions/Xrandr -I/usr/include/X11/extensions/Xcursor -I/usr/include/X11/extensions/Xinerama -I/usr/include/X11/extensions/Xcomposite -I/usr/include/X11/extensions/Xdamage -I/usr/include/X11/extensions/Xext -I/usr/include/X11/extensions/Xfixes -I/usr/include/X11/extensions/Xrender -I/usr/include/X11/extensions/Xres -I/usr/include/X11/extensions/Xv -I/usr/include/X11/extensions/Xvmc -I/usr/include/X11/extensions/xf86vm -I/usr/include/GL -I/usr/include/EGL -Iprotocols/ "
+            ]
+        }
+    ],
+    "version": 4
+}

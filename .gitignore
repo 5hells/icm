@@ -1,0 +1,10 @@
+.clj-kondo/
+.lsp/
+build/
+CMakeFiles/
+dist/
+target/
+*.cmake
+*.obj
+*.so
+*.o

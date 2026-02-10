@@ -1,0 +1,19 @@
+{
+  "name": "icm-client",
+  "version": "1.0.0",
+  "description": "TypeScript client for ICM compositor",
+  "main": "dist/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/test.js",
+    "test": "node dist/test.js",
+    "shell": "node dist/ash-main.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.19.33"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
